@@ -62,11 +62,11 @@ const App = () => {
 
   return (
     <>
-      <header className="bg-black text-white">
+      <header className="bg-black text-white overflow-x-hidden">
         <h1 className="text-center text-2xl py-4 font-bold">MY CHEF BOOK</h1>
       </header>
 
-      <main className="bg-gray-100 text-2xl px-8 py-4 min-h-[100vh]">
+      <main className="bg-gray-100 text-2xl px-8 py-4 min-h-[100vh] overflow-x-hidden">
         <p>Type in the food ingredients(list at least three)</p>
         <form
           onSubmit={handleSubmit}
