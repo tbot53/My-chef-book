@@ -66,7 +66,7 @@ const App = () => {
         <h1 className="text-center text-2xl py-4 font-bold">MY CHEF BOOK</h1>
       </header>
 
-      <main className="bg-gray-100 text-2xl px-8 py-4 min-h-[100vh] overflow-x-hidden">
+      <main className="bg-gray-100 md:text-2xl text-xl px-8 py-4 min-h-[100vh] overflow-x-hidden">
         <p>Type in the food ingredients(list at least three)</p>
         <form
           onSubmit={handleSubmit}
