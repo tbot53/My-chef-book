@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/next"
 import { useState } from "react";
 import axios from "axios";
 
@@ -131,8 +130,6 @@ const App = () => {
           </div>
         )}
       </main>
-
-      <Analytics/>
     </>
   );
 };
